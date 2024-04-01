@@ -2,7 +2,7 @@
 <?php
 
 echo "=======****RLE DECOMPRESSION****=======\n";
-$input = "A1B7C4DE11F2";
+$input = "AB7C4DE11F";
 
 function decompress($input)
 {
@@ -23,5 +23,5 @@ function decompress($input)
     return $output;
 }
 
-echo "Dekompresi: " . decompress($input) . "\n";
+echo decompress($input) . "\n";
 ?>

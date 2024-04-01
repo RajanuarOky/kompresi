@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-echo "=======*Dekompresi Substitution*======\n";
+echo "========Dekompresi Substitution=======\n";
 $dictionary = array("0" => "saya", "b" => "makan", "%" => "tahu", "~" => "dan", "^" => "sambal");
 
 $kompres = "0b%~^";
